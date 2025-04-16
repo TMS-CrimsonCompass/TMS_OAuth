@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1068470782537-b7mcaif0ibcjbf7ufpfqp358lab9rm2n.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
+            redirect-uri: "{baseUrl}/login/oauth2/code/google"
+
+tms:
+  service:
+    url: http://localhost:8080  # URL where the TMS service is hosted
+
+jwt:
+  secret: s9f0Iz7xVJkXqAPm+3v3bTd6WpQyY1MBnLh4jUoGtRr2wE5zNcKHSg8lOe7bB9aPmDqZVnF2CfA4Xw== # YOUR_JWT_SECRET_KEY
+  expiration: 3600000  # JWT expiration time in milliseconds (1 hour)
