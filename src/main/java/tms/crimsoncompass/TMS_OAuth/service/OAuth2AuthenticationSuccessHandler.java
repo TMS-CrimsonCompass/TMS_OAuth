@@ -35,7 +35,9 @@ public class OAuth2AuthenticationSuccessHandler implements AuthenticationSuccess
         String authId = (String) oauthUser.getAttribute("authId");
         String token = jwtUtils.generateToken(authId);
 
+        // response.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+
         // Redirect with the generated token (in production, consider returning token as a secure cookie)
-        response.sendRedirect("/dashboard?token=" + token);
+        response.sendRedirect("http://localhost:3000?token=" + token);
     }
 }
