@@ -19,5 +19,5 @@ tms:
     url: http://localhost:8080  # URL where the TMS service is hosted
 
 jwt:
-  secret: s9f0Iz7xVJkXqAPm+3v3bTd6WpQyY1MBnLh4jUoGtRr2wE5zNcKHSg8lOe7bB9aPmDqZVnF2CfA4Xw== # YOUR_JWT_SECRET_KEY
+  secret: avo39dCJsnW1/1FktGOqtFsVjVDvKd2RiTmjZoI7LLWE4nzurzSG7D9+1zeWMMjNcyljW94TdiDTb0QNzvs3gA== # YOUR_JWT_SECRET_KEY
   expiration: 3600000  # JWT expiration time in milliseconds (1 hour)
