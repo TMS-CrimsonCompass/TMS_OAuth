@@ -16,7 +16,7 @@ spring:
 
 tms:
   service:
-    url: http://localhost:8080  # URL where the TMS service is hosted
+    url: https://ccmain-hzcbg5c8hzh4dwfc.centralus-01.azurewebsites.net  # URL where the TMS service is hosted
 
 jwt:
   secret: avo39dCJsnW1/1FktGOqtFsVjVDvKd2RiTmjZoI7LLWE4nzurzSG7D9+1zeWMMjNcyljW94TdiDTb0QNzvs3gA== # YOUR_JWT_SECRET_KEY
